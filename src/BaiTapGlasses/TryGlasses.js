@@ -6,7 +6,6 @@ import GlassItemList from "./GlassItemList";
 export default class TryGlasses extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       selectedGlass: data[0],
     };
@@ -17,6 +16,7 @@ export default class TryGlasses extends Component {
       selectedGlass: glass,
     });
   };
+
   render() {
     const glass = this.state.selectedGlass;
     return (
