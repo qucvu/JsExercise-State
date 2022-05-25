@@ -1,0 +1,14 @@
+.glassItem{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1.5rem;
+}
+.glassItem img{
+    width: 17%;
+    border: 1px solid #000;
+}
